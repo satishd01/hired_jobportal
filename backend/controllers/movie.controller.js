@@ -11,6 +11,9 @@ export async function getTrendingMovie(req, res) {
 	}
 }
 
+
+
+
 export async function getMovieTrailers(req, res) {
 	const { id } = req.params;
 	try {
